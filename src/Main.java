@@ -7,13 +7,17 @@ public class Main {
         System.out.println("hello");
 
         Rettangolo primo = new Rettangolo(10.5, 5.5);
-        Rettangolo secondo = new Rettangolo(10.5, 5.5);
-        stampaRettangolo(primo)
+        Rettangolo secondo = new Rettangolo(12.5, 9);
+        stampaRettangolo(primo);
+        stampaRettangolo(secondo);
 
 
     }
 
-    public static void stampaRettangolo(Rettangolo rettangolo);
-System.out.println("Perimetro"+primo.getPerimeter);
-System.out.println("Perimetro"+ primo.getArea);
+    public static void stampaRettangolo(Rettangolo rettangolo) {
+        System.out.println("Perimetro" + rettangolo.getPerimeter());
+        System.out.println("Area" + rettangolo.getArea());
+
+    }
+
 }

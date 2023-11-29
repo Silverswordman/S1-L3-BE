@@ -20,7 +20,5 @@ public class Rettangolo {
     public double getArea() {
         return (height * lenght);
     }
-    public void stampaRettangolo (Rettangolo entities){
 
-    }
 }
